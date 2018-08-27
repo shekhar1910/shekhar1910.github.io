@@ -1,0 +1,32 @@
+html { 
+  background: url(laptop.jpg) no-repeat center center fixed; 
+  background-size: cover;
+}
+
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+h2 { 
+	color: white;
+	text-align: center;
+	position: absolute;
+	 margin-top: 185px;
+	 margin-bottom: 100px;
+  	 margin-left: 350px;
+}
+
+.btn{
+	top: 430px;
+	right: 630px;
+	box-shadow: 1px 3px 1px 1px grey;
+}
+.btn-xl{
+	position: absolute;
+}
+
+.btn:hover{
+	background-color: red;
+	border-color: black;
+}
